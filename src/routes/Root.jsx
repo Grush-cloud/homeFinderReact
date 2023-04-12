@@ -8,7 +8,7 @@ export default function Root() {
       <nav className="">
         <ul className="NavBar">
           <li>
-            <Link to="/" className="nav-links">
+            <Link to="/home" className="nav-links">
               Home
             </Link>
           </li>
