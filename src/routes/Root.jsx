@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, NavLink } from "react-router-dom";
 import "../App.css";
 
 export default function Root() {
@@ -8,29 +8,45 @@ export default function Root() {
       <nav>
         <ul className="NavBar">
           <li>
-            <Link to="/homeFinderReact" className="nav-links">
+            <NavLink
+              to="/homeFinderReact"
+              end
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/homeFinderReact/about-us" className="nav-links">
+            <NavLink
+              to="/homeFinderReact/about-us"
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+            >
               About Us
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/homeFinderReact/listings" className="nav-links">
+            <NavLink
+              to="/homeFinderReact/listings"
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+            >
               Listings
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/homeFinderReact/contact" className="nav-links">
+            <NavLink
+              to="/homeFinderReact/contact"
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+            >
               Contact
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/homeFinderReact/list-apartment" className="nav-links">
+            <NavLink
+              to="/homeFinderReact/list-apartment"
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+            >
               List Apartment
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
