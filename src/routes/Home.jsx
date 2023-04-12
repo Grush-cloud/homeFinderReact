@@ -12,7 +12,7 @@ export default function Home(props) {
     .map((property) => {
       return (
         <div key={property.id} className="card">
-          <img src="./public/heroImg2.jpg" className="card-img" />
+          <img src="/homeFinderReact/heroImg2.jpg" className="card-img" />
           <div className="card-text">
             <h4>{property.title}</h4>
             <p> {property.address}</p>
@@ -43,7 +43,7 @@ export default function Home(props) {
   const testimonials = props.testimonies.map((testimony) => {
     return (
       <div key={testimony.id}>
-        <img src="../public/agent-clipart.png" />
+        <img src="/homeFinderReact/agent-clipart.png" />
         <div className="myCarousel">
           <h3>{testimony.name}</h3>
           <h4>...</h4>

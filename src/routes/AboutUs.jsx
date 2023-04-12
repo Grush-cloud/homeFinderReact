@@ -58,17 +58,17 @@ export default function AboutUs() {
 
       <section className="about-us-details">
         <div className="abtUs-card">
-          <img src="/agent-clipart.png" className="abtUs-img" />
+          <img src="/homeFinderReact/agent-clipart.png" className="abtUs-img" />
           <h4>John Doe</h4>
           <p>Lorem ispum</p>
         </div>
         <div className="abtUs-card">
-          <img src="/agent-clipart.png" className="abtUs-img" />
+          <img src="/homeFinderReact/agent-clipart.png" className="abtUs-img" />
           <h4>John Doe</h4>
           <p>Lorem ispum</p>
         </div>
         <div className="abtUs-card">
-          <img src="/agent-clipart.png" className="abtUs-img" />
+          <img src="/homeFinderReact/agent-clipart.png" className="abtUs-img" />
           <h4>John Doe</h4>
           <p>Lorem ispum</p>
         </div>
@@ -76,21 +76,30 @@ export default function AboutUs() {
       <h1 className="agents-title">Meet Our Agents</h1>
       <section className="agents-section">
         <div className="agents-profile">
-          <img src="/agent-clipart.png" className="agents-profile-img" />
+          <img
+            src="/homeFinderReact/agent-clipart.png"
+            className="agents-profile-img"
+          />
           <h4>John Doe</h4>
           <p>
             Lorem ispum <span>icons</span>
           </p>
         </div>
         <div className="agents-profile">
-          <img src="/agent-clipart.png" className="agents-profile-img" />
+          <img
+            src="/homeFinderReact/agent-clipart.png"
+            className="agents-profile-img"
+          />
           <h4>John Doe</h4>
           <p>
             Lorem ispum <span>icons</span>
           </p>
         </div>
         <div className="agents-profile">
-          <img src="/agent-clipart.png" className="agents-profile-img" />
+          <img
+            src="/homeFinderReact/agent-clipart.png"
+            className="agents-profile-img"
+          />
           <h4>John Doe</h4>
           <p>
             Lorem ispum <span>icons</span>
