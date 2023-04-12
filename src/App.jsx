@@ -111,7 +111,7 @@ export default function App() {
       <RouterProvider
         router={createBrowserRouter(
           createRoutesFromElements(
-            <Route path="/" element={<Root />}>
+            <Route path="/homeFinderReact" element={<Root />}>
               <Route
                 index
                 element={

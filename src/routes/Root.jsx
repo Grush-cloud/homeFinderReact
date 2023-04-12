@@ -8,27 +8,27 @@ export default function Root() {
       <nav>
         <ul className="NavBar">
           <li>
-            <Link to="/" className="nav-links">
+            <Link to="/homeFinderReact" className="nav-links">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about-us" className="nav-links">
+            <Link to="/homeFinderReact/about-us" className="nav-links">
               About Us
             </Link>
           </li>
           <li>
-            <Link to="/listings" className="nav-links">
+            <Link to="/homeFinderReact/listings" className="nav-links">
               Listings
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="nav-links">
+            <Link to="/homeFinderReact/contact" className="nav-links">
               Contact
             </Link>
           </li>
           <li>
-            <Link to="/list-apartment" className="nav-links">
+            <Link to="/homeFinderReact/list-apartment" className="nav-links">
               List Apartment
             </Link>
           </li>

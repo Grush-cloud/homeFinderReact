@@ -11,7 +11,7 @@ export default function Listings(props) {
   ).map((property) => {
     return (
       <div key={property.id} className="card">
-        <img src="./public/heroImg2.jpg" className="card-img" />
+        <img src="/public/heroImg2.jpg" className="card-img" />
         <div className="card-text">
           <h4>{property.title}</h4>
           <p> {property.city}</p>
