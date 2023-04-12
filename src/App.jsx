@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {
   createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -112,7 +113,7 @@ export default function App() {
           createRoutesFromElements(
             <Route path="/" element={<Root />}>
               <Route
-                path="home"
+                index
                 element={
                   <Home properties={properties} testimonies={testimonies} />
                 }

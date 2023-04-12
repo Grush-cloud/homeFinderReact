@@ -5,10 +5,10 @@ import "../App.css";
 export default function Root() {
   return (
     <>
-      <nav className="">
+      <nav>
         <ul className="NavBar">
           <li>
-            <Link to="/home" className="nav-links">
+            <Link to="/" className="nav-links">
               Home
             </Link>
           </li>
